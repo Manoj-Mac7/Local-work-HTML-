@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: azure;
+}
+
+.navigation{
+    background-color: aquamarine;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    max-height: 4rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.left{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+    padding: 2rem;
+}
+.sty{
+    font-size: 3rem;
+}
+
+.nav,ul,li{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.icon-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+li{
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+    color:darkred;
+}
+
+footer{
+    position: fixed;
+    margin-top: 5rem;
+
+    box-shadow: rgba(149, 157, 165, 0.2) 8px 24px 24px;
+}
+
+.foot{
+    position: inherit;
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paragraph{
+    margin: 2rem;
+}
+
+.content{
+    width: 80%;
+    margin: 4rem auto;
+}
